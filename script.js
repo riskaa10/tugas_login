@@ -12,6 +12,6 @@ form.addEventListener("submit", function(e ) {
         localStorage.setItem("isLoggedIn", "true");
         window.location.href = "dashboard.html";
      } else {
-        window.location.href = "login ulang.html"
+        form.reset();
      }
  });
